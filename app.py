@@ -5,8 +5,6 @@ from openai import OpenAI
 import pandas as pd
 import base64
 
-st.markdown(input_style, unsafe_allow_html=True)
-
 
 def add_bg_from_local(image_file):
     with open(image_file, "rb") as image_file:
