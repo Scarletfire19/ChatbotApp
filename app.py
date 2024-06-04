@@ -22,7 +22,7 @@ background-size: cover;
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-st.title("Chatbot Application")
+st.title("Ask Gurudev Anything Chatbot")
 
 
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
